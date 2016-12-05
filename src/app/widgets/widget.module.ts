@@ -1,14 +1,17 @@
 import {NgModule} from "@angular/core";
 
 import {WidgetOneComponent} from './widget-one.component';
+import {WidgetTwoComponent} from './widget-two.component';
 
 @NgModule({
     imports: [],
     declarations: [
-        WidgetOneComponent
+        WidgetOneComponent,
+        WidgetTwoComponent
     ],
     exports: [
-        WidgetOneComponent
+        WidgetOneComponent,
+        WidgetTwoComponent
     ]
 })
 
