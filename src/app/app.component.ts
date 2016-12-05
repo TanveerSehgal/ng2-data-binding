@@ -9,4 +9,9 @@ import {Component} from '@angular/core';
 export class AppComponent {
     title = 'Angular 2 Data Binding';
     purpose = 'You will learn how to bind data to your view in Angular 2';
+    widgetTwoDisabled = true;
+
+    toggleWidgetTwo() {
+        this.widgetTwoDisabled = !this.widgetTwoDisabled;
+    }
 }

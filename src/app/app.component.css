@@ -1,0 +1,11 @@
+body {
+    font-family: 'helvetica', 'Times New Roman', 'sans-serif';
+}
+
+p {
+    display: block;
+    padding: 2px;
+
+    color: white;
+    background-color: black;
+}
