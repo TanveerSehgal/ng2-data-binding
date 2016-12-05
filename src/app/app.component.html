@@ -10,6 +10,8 @@
 <!--Property binding-->
 <p>This is what property binding looks like</p>
 
+<widget-one [widgetValue]="title"></widget-one>
+
 <widget-one [widgetValue]="'new value'"></widget-one>
 
 <hr>
@@ -20,3 +22,12 @@
 <button (click)="toggleWidgetTwo()">Widget Two Toggle</button>
 
 <widget-two [isInactive]="widgetTwoDisabled"></widget-two>
+
+<hr>
+
+<!--Two way data binding-->
+<p>Now let's have some 2 way data binding fun</p>
+
+<input type="text" [(ngModel)]="inputWidgetValue">
+
+<widget-one [widgetValue]="inputWidgetValue"></widget-one>
